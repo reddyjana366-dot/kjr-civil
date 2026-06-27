@@ -1,0 +1,58 @@
+/* Color Variables */
+:root {
+    --primary-color: #1565C0;
+    --primary-dark: #0D47A1;
+    --primary-light: #42A5F5;
+    --secondary-color: #FFFFFF;
+    --accent-color: #FF9800;
+    --accent-dark: #E68900;
+    --accent-light: #FFB74D;
+    
+    --text-primary: #1F2937;
+    --text-secondary: #6B7280;
+    --text-light: #9CA3AF;
+    --text-lighter: #D1D5DB;
+    
+    --bg-primary: #FFFFFF;
+    --bg-secondary: #F9FAFB;
+    --bg-tertiary: #F3F4F6;
+    --bg-dark: #1F2937;
+    
+    --border-color: #E5E7EB;
+    --border-light: #F3F4F6;
+    
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+    --radius-full: 9999px;
+    
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-fast: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    
+    --font-family: 'Poppins', sans-serif;
+    --font-mono: 'Courier New', monospace;
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-primary: #F9FAFB;
+        --text-secondary: #E5E7EB;
+        --text-light: #9CA3AF;
+        --text-lighter: #6B7280;
+        
+        --bg-primary: #111827;
+        --bg-secondary: #1F2937;
+        --bg-tertiary: #374151;
+        
+        --border-color: #374151;
+        --border-light: #4B5563;
+    }
+}
